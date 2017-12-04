@@ -128,8 +128,8 @@ def draw_circles2():
     print('--------------------------------------------------')
 
     window = rg.RoseWindow(400, 400)
-    for k in range(5, 40):
-        center = rg.Point(30 + k * 20, 100)
+    for k in range(18):
+        center = rg.Point(20 * k + 50, 100)
         circle = rg.Circle(center, 10)
         circle.fill_color = 'blue'
         circle.attach_to(window)
